@@ -248,3 +248,14 @@
   .disc.shot img{object-position:42% 50%}
   @media (max-width:900px){ .disc.shot{aspect-ratio:16/10;max-width:none} }
   .tl h4 a{color:inherit;text-decoration-color:var(--sky);text-decoration-thickness:2px;text-underline-offset:4px}
+
+  /* ================= ouverture : le nom en grand ================= */
+  .hero .brand{visibility:hidden}
+  .hero h1.name{font-size:clamp(56px,7.4vw,104px);line-height:.92;font-weight:700;letter-spacing:-.04em;margin-top:0}
+  .hero .role{font-size:clamp(22px,2.3vw,30px);line-height:1.25;font-weight:600;color:var(--sky);margin-top:22px;max-width:20ch}
+  .hero .role + p{margin-top:20px}
+  @media (max-width:900px){ .hero h1.name{font-size:clamp(48px,14vw,72px)} }
+  @media (max-width:900px){
+    .hero .fade{background:linear-gradient(180deg, rgba(0,21,35,.6) 0, rgba(0,21,35,0) 90px, rgba(0,21,35,0) 280px, var(--navy) 420px)}
+    .hero .copy{padding-top:360px}
+  }
