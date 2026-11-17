@@ -259,3 +259,4 @@
     .hero .fade{background:linear-gradient(180deg, rgba(0,21,35,.6) 0, rgba(0,21,35,0) 90px, rgba(0,21,35,0) 280px, var(--navy) 420px)}
     .hero .copy{padding-top:360px}
   }
+  .card .tag{position:static;margin-bottom:auto;padding-bottom:28px}
